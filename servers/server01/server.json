@@ -1,0 +1,13 @@
+{
+    "server": true,
+    "bind_addr": "172.25.0.1",
+    "bootstrap_expect": 3,
+    "data_dir": "/var/lib/consul",
+    "retry_join": ["172.25.0.2", "172.25.0.3"],
+    "node_name": "consulserver01",
+    "encrypt": "NSmnak+MOBZ7eOb4arZP30KPvrXz4IXy+/MO0YFJvpw=",
+    "client_addr": "0.0.0.0",
+    "ui_config": {
+        "enabled": true
+    }
+}
